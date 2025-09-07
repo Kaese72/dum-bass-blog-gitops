@@ -17,7 +17,8 @@
             "matchFileNames": [
                 "base/.*.yaml"
             ],
-            "groupName": "base-images"
+            "groupName": "base-images",
+            "automerge": true
         }
     ]
 }
