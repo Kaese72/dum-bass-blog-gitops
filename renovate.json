@@ -1,0 +1,23 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "dependencyDashboard": false,
+    "prHourlyLimit": 0,
+    "kubernetes": {
+        "fileMatch": [
+            "base/.*.yaml"
+        ]
+    },
+    "kustomize": {
+        "fileMatch": [
+            "base/.*.yaml"
+        ]
+    },
+    "packageRules": [
+        {
+            "matchFileNames": [
+                "base/.*.yaml"
+            ],
+            "groupName": "base-images"
+        }
+    ]
+}
